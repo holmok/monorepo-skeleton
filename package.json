@@ -1,5 +1,5 @@
 {
-  "name": "monorep-skeleton",
+  "name": "monorepo-skeleton",
   "private": true,
   "workspaces": [
     "packages/*"
