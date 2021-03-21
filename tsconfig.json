@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo-skeleton/*": ["packages/*/src"]
+    }
+  },
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "types": ["node"],
+  "typeRoots": [
+    "./node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
